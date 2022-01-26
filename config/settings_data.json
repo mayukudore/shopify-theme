@@ -17,7 +17,7 @@
             "type": "announcement",
             "settings": {
               "text": "hello",
-              "color_bg": "#f18a8a",
+              "color_bg": "#24ae1f",
               "link": ""
             }
           }
