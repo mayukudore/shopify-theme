@@ -1,10 +1,16 @@
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'announcement' -%}
+      <style>
+         .announcement-bar {
+        background-color: {{ block.settings.color_bg }};
+      }
+      }
+
+      </style>
       <div  class="announcement-bar bg-color"
           role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
-          <input type="text" id="colorInput">
-          <input type="color" id="color_background" onclick="changeColor();"/>
+   
        
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
@@ -40,16 +46,12 @@
           "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
         },
         {
-          "type": "color_background",
-          "id": "color_background",
+          "type": "color",
+          "id": "color_bg",
           "label": "Background color",
           "default": "#FFFFFF"
         },
-        {
-          "type": "text",
-          "id": "colorInput",
-          "label": "color"
-        },
+        
        
         {
           "type": "url",
