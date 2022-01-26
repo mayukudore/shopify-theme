@@ -16,10 +16,10 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "hi",
-              "font_size": 17,
-              "text_color": "#1878b9",
-              "color_bg": "#26da1f",
+              "text": "Hello",
+              "font_size": 20,
+              "text_color": "#e6edf2",
+              "color_bg": "#485147",
               "link": ""
             }
           }
