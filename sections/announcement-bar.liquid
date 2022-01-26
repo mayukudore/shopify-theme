@@ -4,8 +4,8 @@
       <div  class="announcement-bar bg-color"
           role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
           <input type="text" id="colorInput">
-          <input type="color" id="color_background"/>
-          <input type="button" id="changeColor" value="Change Color" onclick="changeColor();">
+          <input type="color" id="color_background" onclick="changeColor();"/>
+        onclick="changeColor();">
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
             <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
@@ -50,11 +50,7 @@
           "id": "colorInput",
           "label": "color"
         },
-        {
-          "type":"button",
-          "id":"changeColor",
-          "label":"color picker"
-        },
+       
         {
           "type": "url",
           "id": "link",
