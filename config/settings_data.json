@@ -17,6 +17,7 @@
             "type": "announcement",
             "settings": {
               "text": "HELLO",
+              "font_size": 17,
               "text_color": "#1878b9",
               "color_bg": "#26da1f",
               "link": ""
