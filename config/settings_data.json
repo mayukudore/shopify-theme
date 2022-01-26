@@ -16,7 +16,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "hello",
+              "text": "HELLO",
               "text_color": "#1878b9",
               "color_bg": "#26da1f",
               "link": ""
