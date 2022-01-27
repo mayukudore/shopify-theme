@@ -20,6 +20,7 @@
               "font_size": 20,
               "text_color": "#e6edf2",
               "color_bg": "#485147",
+              "slider__active": true,
               "link": ""
             }
           }
