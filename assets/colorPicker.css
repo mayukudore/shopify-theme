@@ -1,17 +1,17 @@
 .annoucement-slider{
- animation-duration: 3s;
+ animation-duration: 30s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
 @keyframes slidein {
   from {
-    margin-left: 100%;
-    width: 300%;
+    margin-left: -30%;
+    width: 60%;
   }
 
   to {
-    margin-left: 0%;
-    width: 100%;
+    margin-left: 70%;
+    width: 60%;
   }
 }
