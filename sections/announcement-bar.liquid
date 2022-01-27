@@ -27,7 +27,7 @@
             <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
           {%- endif -%}
           {%- if block.settings.slider__active -%}
-            <p class="announcement-bar__message h5 slider">
+            <p class="announcement-bar__message h5 annoucement-slider">
                 {{ block.settings.text | escape }}
                 {%- if block.settings.link != blank -%}
                   {% render 'icon-arrow' %}
